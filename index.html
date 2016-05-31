@@ -14,5 +14,7 @@ p{ padding:4px; color:#fff; background-color:skyblue; }
 Heading for the page.
 </h1>
 <p>The paragraph having some text content.</p>
+<p>Closures have access to the outer function’s variable even after the outer function returns:
+One of the most important and ticklish features with closures is that the inner function still has access to the outer function’s variables even after the outer function has returned. Yep, you read that correctly. When functions in JavaScript execute, they use the same scope chain that was in effect when they were created. This means that even after the outer function has returned, the inner function still has access to the outer function’s variables. Therefore, you can call the inner function later in your program. This example demonstrates:</p>
 </body>
 </html>
